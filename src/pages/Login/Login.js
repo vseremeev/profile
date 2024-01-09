@@ -20,7 +20,7 @@ const Login = ({ title, setProfile, timedoutDialog }) => {
          if (profile && profile.password === e.target.password.value) {
             setProfile(profile);
             cancelTimeout();
-            startTimeout(10000, timedoutDialog);
+            startTimeout(60000, timedoutDialog);
             navigate("/view");
          } else {
             e.target.password.setCustomValidity("Email or password does not match. Please try again or create new profile.");
