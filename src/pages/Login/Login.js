@@ -13,6 +13,7 @@ const Login = ({ title, setProfile, timedoutDialog }) => {
 
    const onSubmit = (e) => {
       e.preventDefault();
+
       let profiles = localStorage.getItem("profiles");
       profiles = profiles ? JSON.parse(profiles) : [];
       if (profiles) {
