@@ -1,0 +1,12 @@
+.profile-inputs {
+   display: grid;
+   align-items: start;
+   grid-template-rows: max-content auto;
+   gap: 30px;
+}
+
+.profile-inputs-top {
+   display: grid;
+   gap: 30px;
+   grid-template-columns: 1fr 1fr;
+}

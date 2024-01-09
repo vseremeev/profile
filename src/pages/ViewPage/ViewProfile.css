@@ -1,0 +1,17 @@
+.profile-data {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3, max-content);
+   gap: 30px;
+   margin: 0 0 40px;
+   color: #333;
+}
+
+.profile-item-data {
+   font-weight: 500;
+   margin: 12px 0 10px 5px;
+}
+
+.profile-item-color .profile-item-data {
+   text-transform: capitalize;
+}
